@@ -1484,7 +1484,8 @@ app.directive('ezGridsterItem', ['$timeout', '$parse', function($timeout, $parse
 
       scope.$on('$destroy', function() {
         // hide item right away otherwise transitions cause widget overlap
-        $element.hide();
+
+        //$element.hide(); //removed because transitions look choppy
         gridster.removeItemElement(scope.item[gridster.getOption('trackByProperty')]);
 
         if (dragInteract !== null) {
