@@ -69,7 +69,7 @@ app.constant('EzGridsterConfig', {
    * The padding between grid items
    * @type {array} [x, y]
    */
-  padding: [10, 10],
+  padding: [5, 5],
 
   /**
    * The minimum width of an item
