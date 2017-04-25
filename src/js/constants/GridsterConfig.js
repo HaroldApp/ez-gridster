@@ -75,13 +75,13 @@ app.constant('EzGridsterConfig', {
    * The minimum width of an item
    * @type {number} Width in pixels
    */
-  minItemWidth: 20,
+  minItemWidth: 100,
 
   /**
    * The minimum height of an item
    * @type {number} Height in pixels
    */
-  minItemHeight: 20,
+  minItemHeight: 100,
 
   /**
    * The minimum amount of rows to show if the grid is empty
